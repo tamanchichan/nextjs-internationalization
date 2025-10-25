@@ -1,0 +1,13 @@
+{
+    "HeaderNav": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "HomePage": {
+        "title": "Hello World!"
+    },
+    "AboutPage": {
+        "title": "About"
+    }
+}
