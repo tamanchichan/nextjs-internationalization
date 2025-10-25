@@ -24,7 +24,7 @@ export function proxy(request) {
     )
     
     // Do nothing here for invalid locales; 'dictionaries.js' will handle 404.
-    if (locales.some((locale) => locale !== request)) {
+    if (locales.some((locale) => locale !== request) && pathname !== "/") {
         return;
     }
     
